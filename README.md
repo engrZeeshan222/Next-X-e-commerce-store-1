@@ -1,5 +1,5 @@
 # Next-X-e-commerce-store
-#Zeeshan
+
 # List of Features
 
 ### Currency Converter
