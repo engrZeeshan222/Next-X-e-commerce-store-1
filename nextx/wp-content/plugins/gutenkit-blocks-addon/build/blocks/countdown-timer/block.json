@@ -1,0 +1,451 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit/countdown-timer",
+  "version": "1.0.0",
+  "title": "Countdown Timer",
+  "category": "gutenkit",
+  "keywords": [
+    "gkit",
+    "countdown",
+    "deadline",
+    "timer"
+  ],
+  "description": "Countdown timer block for gutenberg.",
+  "example": {
+    "preview": true
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "style": {
+      "type": "string",
+      "default": "style1"
+    },
+    "date": {
+      "type": "string",
+      "default": "2025-09-19T16:03:03"
+    },
+    "dayLabel": {
+      "type": "string",
+      "default": "Days"
+    },
+    "hourLabel": {
+      "type": "string",
+      "default": "Hours"
+    },
+    "minuteLabel": {
+      "type": "string",
+      "default": "Minutes"
+    },
+    "secondLabel": {
+      "type": "string",
+      "default": "Seconds"
+    },
+    "weekLabel": {
+      "type": "string",
+      "default": "Weeks"
+    },
+    "widthDesktop": {
+      "type": "object"
+    },
+    "heightDesktop": {
+      "type": "object"
+    },
+    "lineHeightDesktop": {
+      "type": "object"
+    },
+    "widthTablet": {
+      "type": "object"
+    },
+    "heightTablet": {
+      "type": "object"
+    },
+    "lineHeightTablet": {
+      "type": "object"
+    },
+    "widthMobile": {
+      "type": "object"
+    },
+    "heightMobile": {
+      "type": "object"
+    },
+    "lineHeightMobile": {
+      "type": "object"
+    },
+    "columnGapDesktop": {
+      "type": "object"
+    },
+    "columnGapTablet": {
+      "type": "object"
+    },
+    "columnGapMobile": {
+      "type": "object"
+    },
+    "rowGapDesktop": {
+      "type": "object"
+    },
+    "rowGapTablet": {
+      "type": "object"
+    },
+    "rowGapMobile": {
+      "type": "object"
+    },
+    "daysColor": {
+      "type": "string"
+    },
+    "daysTypography": {
+      "type": "object"
+    },
+    "daysMarginBottomDesktop": {
+      "type": "object"
+    },
+    "daysMarginBottomTablet": {
+      "type": "object"
+    },
+    "daysMarginBottomMobile": {
+      "type": "object"
+    },
+    "daysLabelColor": {
+      "type": "string"
+    },
+    "daysLabelBackground": {
+      "type": "object"
+    },
+    "daysLabelTypography": {
+      "type": "object"
+    },
+    "daysLabelBorder": {
+      "type": "object"
+    },
+    "daysLabelBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "daysLabelBorderRadiusTablet": {
+      "type": "object"
+    },
+    "daysLabelBorderRadiusMobile": {
+      "type": "object"
+    },
+    "daysLabelMarginDesktop": {
+      "type": "object"
+    },
+    "daysLabelMarginTablet": {
+      "type": "object"
+    },
+    "daysLabelMarginMobile": {
+      "type": "object"
+    },
+    "daysBackground": {
+      "type": "object"
+    },
+    "daysBorder": {
+      "type": "object"
+    },
+    "daysBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "daysBorderRadiusTablet": {
+      "type": "object"
+    },
+    "daysBorderRadiusMobile": {
+      "type": "object"
+    },
+    "daysShadow": {
+      "type": "object"
+    },
+    "weeksColor": {
+      "type": "string"
+    },
+    "weeksTypography": {
+      "type": "object"
+    },
+    "weeksMarginBottomDesktop": {
+      "type": "object"
+    },
+    "weeksMarginBottomTablet": {
+      "type": "object"
+    },
+    "weeksMarginBottomMobile": {
+      "type": "object"
+    },
+    "weeksLabelColor": {
+      "type": "string"
+    },
+    "weeksLabelBackground": {
+      "type": "object"
+    },
+    "weeksLabelTypography": {
+      "type": "object"
+    },
+    "weeksLabelBorder": {
+      "type": "object"
+    },
+    "weeksLabelBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "weeksLabelBorderRadiusTablet": {
+      "type": "object"
+    },
+    "weeksLabelBorderRadiusMobile": {
+      "type": "object"
+    },
+    "weeksLabelMarginDesktop": {
+      "type": "object"
+    },
+    "weeksLabelMarginTablet": {
+      "type": "object"
+    },
+    "weeksLabelMarginMobile": {
+      "type": "object"
+    },
+    "weeksBackground": {
+      "type": "object"
+    },
+    "weeksBorder": {
+      "type": "object"
+    },
+    "weeksBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "weeksBorderRadiusTablet": {
+      "type": "object"
+    },
+    "weeksBorderRadiusMobile": {
+      "type": "object"
+    },
+    "weeksShadow": {
+      "type": "object"
+    },
+    "hoursColor": {
+      "type": "string"
+    },
+    "hoursTypography": {
+      "type": "object"
+    },
+    "hoursMarginBottomDesktop": {
+      "type": "object"
+    },
+    "hoursMarginBottomTablet": {
+      "type": "object"
+    },
+    "hoursMarginBottomMobile": {
+      "type": "object"
+    },
+    "hoursLabelColor": {
+      "type": "string"
+    },
+    "hoursLabelBackground": {
+      "type": "object"
+    },
+    "hoursLabelTypography": {
+      "type": "object"
+    },
+    "hoursLabelBorder": {
+      "type": "object"
+    },
+    "hoursLabelBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "hoursLabelBorderRadiusTablet": {
+      "type": "object"
+    },
+    "hoursLabelBorderRadiusMobile": {
+      "type": "object"
+    },
+    "hoursLabelMarginDesktop": {
+      "type": "object"
+    },
+    "hoursLabelMarginTablet": {
+      "type": "object"
+    },
+    "hoursLabelMarginMobile": {
+      "type": "object"
+    },
+    "hoursBackground": {
+      "type": "object"
+    },
+    "hoursBorder": {
+      "type": "object"
+    },
+    "hoursBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "hoursBorderRadiusTablet": {
+      "type": "object"
+    },
+    "hoursBorderRadiusMobile": {
+      "type": "object"
+    },
+    "hoursShadow": {
+      "type": "object"
+    },
+    "minutesColor": {
+      "type": "string"
+    },
+    "minutesTypography": {
+      "type": "object"
+    },
+    "minutesMarginBottomDesktop": {
+      "type": "object"
+    },
+    "minutesMarginBottomTablet": {
+      "type": "object"
+    },
+    "minutesMarginBottomMobile": {
+      "type": "object"
+    },
+    "minutesLabelColor": {
+      "type": "string"
+    },
+    "minutesLabelBackground": {
+      "type": "object"
+    },
+    "minutesLabelTypography": {
+      "type": "object"
+    },
+    "minutesLabelBorder": {
+      "type": "object"
+    },
+    "minutesLabelBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "minutesLabelBorderRadiusTablet": {
+      "type": "object"
+    },
+    "minutesLabelBorderRadiusMobile": {
+      "type": "object"
+    },
+    "minutesLabelMarginDesktop": {
+      "type": "object"
+    },
+    "minutesLabelMarginTablet": {
+      "type": "object"
+    },
+    "minutesLabelMarginMobile": {
+      "type": "object"
+    },
+    "minutesBackground": {
+      "type": "object"
+    },
+    "minutesBorder": {
+      "type": "object"
+    },
+    "minutesBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "minutesBorderRadiusTablet": {
+      "type": "object"
+    },
+    "minutesBorderRadiusMobile": {
+      "type": "object"
+    },
+    "minutesShadow": {
+      "type": "object"
+    },
+    "secondsColor": {
+      "type": "string"
+    },
+    "secondsTypography": {
+      "type": "object"
+    },
+    "secondsMarginBottomDesktop": {
+      "type": "object"
+    },
+    "secondsMarginBottomTablet": {
+      "type": "object"
+    },
+    "secondsMarginBottomMobile": {
+      "type": "object"
+    },
+    "secondsLabelColor": {
+      "type": "string"
+    },
+    "secondsLabelBackground": {
+      "type": "object"
+    },
+    "secondsLabelTypography": {
+      "type": "object"
+    },
+    "secondsLabelBorder": {
+      "type": "object"
+    },
+    "secondsLabelBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "secondsLabelBorderRadiusTablet": {
+      "type": "object"
+    },
+    "secondsLabelBorderRadiusMobile": {
+      "type": "object"
+    },
+    "secondsLabelMarginDesktop": {
+      "type": "object"
+    },
+    "secondsLabelMarginTablet": {
+      "type": "object"
+    },
+    "secondsLabelMarginMobile": {
+      "type": "object"
+    },
+    "secondsBackground": {
+      "type": "object"
+    },
+    "secondsBorder": {
+      "type": "object"
+    },
+    "secondsBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "secondsBorderRadiusTablet": {
+      "type": "object"
+    },
+    "secondsBorderRadiusMobile": {
+      "type": "object"
+    },
+    "secondsShadow": {
+      "type": "object"
+    },
+    "outerBackground": {
+      "type": "object"
+    },
+    "outerEdgeColor": {
+      "type": "string"
+    },
+    "innerBackground": {
+      "type": "object"
+    },
+    "expireLabel": {
+      "type": "string",
+      "default": "Countdown is finished!"
+    },
+    "expireDescription": {
+      "type": "string",
+      "default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500s"
+    },
+    "isExpired": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "gutenkit-blocks-addon",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./frontend.js"
+}

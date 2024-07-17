@@ -1,0 +1,20 @@
+2024-07-14T18:15:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 6
+2024-07-14T18:15:54+00:00 NOTICE member.sync :: Skipped Member Sync For e-commerce@gmail.com because the current status is pending :: Array
+(
+    [FNAME] => Mix
+    [LNAME] => Dex
+)
+
+2024-07-14T18:19:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 7315605500f8bb08e900698582242d04
+2024-07-14T18:20:54+00:00 ERROR abandoned_cart.error :: email: e-commerce@gmail.com :: attempting product update :: A product with the provided ID does not exist in the account for this list.
+2024-07-14T18:21:00+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 7315605500f8bb08e900698582242d04
+2024-07-14T18:21:00+00:00 NOTICE product_submit.success :: addStoreProduct :: #242
+2024-07-14T18:21:01+00:00 NOTICE abandoned_cart.success :: email: e-commerce@gmail.com
+2024-07-14T18:21:04+00:00 NOTICE cart.member.updated :: Updated e-commerce@gmail.com subscriber status to pending and language to en
+2024-07-14T18:21:08+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 3600
+2024-07-14T18:21:26+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 3601
+2024-07-14T18:22:11+00:00 NOTICE abandoned_cart.success :: email: e-commerce@gmail.com :: checkout_url: http://localhost/nextx/checkout/?mc_cart_id=7315605500f8bb08e900698582242d04
+2024-07-14T18:22:45+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 7315605500f8bb08e900698582242d04
+2024-07-14T18:22:54+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 7315605500f8bb08e900698582242d04
+2024-07-14T18:23:13+00:00 NOTICE abandoned_cart.success :: email: e-commerce@gmail.com :: checkout_url: http://localhost/nextx/checkout/?mc_cart_id=7315605500f8bb08e900698582242d04
+2024-07-14T18:23:15+00:00 NOTICE abandoned_cart.success :: email: e-commerce@gmail.com :: checkout_url: http://localhost/nextx/checkout/?mc_cart_id=7315605500f8bb08e900698582242d04

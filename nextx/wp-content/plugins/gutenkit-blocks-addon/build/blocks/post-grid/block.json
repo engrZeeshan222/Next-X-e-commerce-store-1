@@ -1,0 +1,111 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit/post-grid",
+  "version": "1.0.0",
+  "title": "Post Grid",
+  "category": "gutenkit",
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "post",
+    "grid",
+    "post grid"
+  ],
+  "description": "Post Grid block for gutenberg.",
+  "example": {
+    "preview": true
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "selectedCategories": {
+      "type": "array",
+      "default": []
+    },
+    "postCount": {
+      "type": "number",
+      "default": 3
+    },
+    "posts": {
+      "type": "array",
+      "default": []
+    },
+    "enableCropTitle": {
+      "type": "boolean",
+      "default": false
+    },
+    "numberOfWordsTitle": {
+      "type": "number",
+      "default": 5
+    },
+    "selectColumnDesktop": {
+      "type": "number",
+      "default": 3
+    },
+    "selectColumnTablet": {
+      "type": "number",
+      "default": 2
+    },
+    "selectColumnMobile": {
+      "type": "number",
+      "default": 1
+    },
+    "gapDesktop": {
+      "type": "object"
+    },
+    "gapTablet": {
+      "type": "object"
+    },
+    "gapMobile": {
+      "type": "object"
+    },
+    "heightDesktop": {
+      "type": "object"
+    },
+    "heightTablet": {
+      "type": "object"
+    },
+    "heightMobile": {
+      "type": "object"
+    },
+    "titleTypography": {
+      "type": "object"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "titleColorHover": {
+      "type": "string"
+    },
+    "titleMarginDesktop": {
+      "type": "object"
+    },
+    "titleMarginTablet": {
+      "type": "object"
+    },
+    "titleMarginMobile": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "gutenkit-blocks-addon",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

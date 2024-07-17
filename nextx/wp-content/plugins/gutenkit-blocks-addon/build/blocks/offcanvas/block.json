@@ -1,0 +1,271 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit/offcanvas",
+  "version": "1.0.0",
+  "title": "Offcanvas",
+  "category": "gutenkit",
+  "icon": "menu-alt3",
+  "keywords": [
+    "ekit",
+    "header",
+    "offcanvas",
+    "side menu",
+    "side info"
+  ],
+  "description": "Offcanvas block for gutenberg.",
+  "example": {
+    "preview": true
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "overlayColor": {
+      "type": "string",
+      "default": "#242424e6"
+    },
+    "isHamburger": {
+      "type": "string",
+      "default": "hamburger"
+    },
+    "menuType": {
+      "type": "string",
+      "default": "icon"
+    },
+    "closeIcon": {
+      "type": "object",
+      "default": {
+        "title": "close",
+        "src": "<svg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 50 50' width='50px' height='50px'><path d='M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z'/></svg>"
+      },
+      "excludeCopy": true
+    },
+    "editIcon": {
+      "type": "object",
+      "default": {
+        "title": "plus",
+        "src": "<svg version='1.1' xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><title>plus</title><path d='M32 15.345h-14.945v-14.945h-2.11v14.945h-14.945v2.11h14.945v14.945h2.11v-14.945h14.945z'></path></svg>"
+      },
+      "excludeCopy": true
+    },
+    "offCanvasIcons": {
+      "type": "object",
+      "default": {
+        "title": "align-left",
+        "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'><path d='M288 64c0 17.7-14.3 32-32 32H32C14.3 96 0 81.7 0 64S14.3 32 32 32H256c17.7 0 32 14.3 32 32zm0 256c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H256c17.7 0 32 14.3 32 32zM0 192c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 448c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z'/></svg>"
+      },
+      "excludeCopy": true
+    },
+    "iconPosition": {
+      "type": "string",
+      "default": "before"
+    },
+    "offCanvasText": {
+      "type": "string",
+      "default": "Menu"
+    },
+    "disableScroll": {
+      "type": "boolean",
+      "default": true
+    },
+    "gkitCloseIconSizeDesktop": {
+      "type": "object",
+      "default": {
+        "size": 14,
+        "unit": "px"
+      }
+    },
+    "gkitCloseIconSizeTablet": {
+      "type": "object"
+    },
+    "gkitCloseIconSizeMobile": {
+      "type": "object"
+    },
+    "gkitHamburgIconSizeDesktop": {
+      "type": "object",
+      "default": {
+        "size": 20,
+        "unit": "px"
+      }
+    },
+    "gkitHamburgIconSizeTablet": {
+      "type": "object"
+    },
+    "gkitHamburgIconSizeMobile": {
+      "type": "object"
+    },
+    "gkitHamburgTypography": {
+      "type": "object"
+    },
+    "gkitHamburgColor": {
+      "type": "string"
+    },
+    "gkitHamburgBgColor": {
+      "type": "object"
+    },
+    "gkitHamburgBorder": {
+      "type": "object"
+    },
+    "gkitHamburgColorHover": {
+      "type": "string"
+    },
+    "gkitHamburgBgColorHover": {
+      "type": "object"
+    },
+    "gkitHamburgBorderHover": {
+      "type": "object"
+    },
+    "gkitBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitBorderRadiusTablet": {
+      "type": "object"
+    },
+    "gkitBorderRadiusMobile": {
+      "type": "object"
+    },
+    "gkitPaddingDesktop": {
+      "type": "object",
+      "default": {
+        "top": "10px",
+        "right": "10px",
+        "bottom": "10px",
+        "left": "10px"
+      }
+    },
+    "gkitPaddingTablet": {
+      "type": "object"
+    },
+    "gkitPaddingMobile": {
+      "type": "object"
+    },
+    "gkitMarginDesktop": {
+      "type": "object"
+    },
+    "gkitMarginTablet": {
+      "type": "object"
+    },
+    "gkitMarginMobile": {
+      "type": "object"
+    },
+    "gkitAlignmentDesktop": {
+      "type": "string",
+      "default": "left"
+    },
+    "gkitAlignmentTablet": {
+      "type": "string"
+    },
+    "gkitAlignmentMobile": {
+      "type": "string"
+    },
+    "gkitBoxShadow": {
+      "type": "object"
+    },
+    "gkitOffCanvasSizeDesktop": {
+      "type": "object",
+      "default": {
+        "size": 350,
+        "unit": "px"
+      }
+    },
+    "gkitOffCanvasSizeTablet": {
+      "type": "object"
+    },
+    "gkitOffCanvasSizeMobile": {
+      "type": "object"
+    },
+    "gkitOffCanvasHeightDesktop": {
+      "type": "object",
+      "default": {
+        "size": 400,
+        "unit": "px"
+      }
+    },
+    "gkitOffCanvasHeightTablet": {
+      "type": "object"
+    },
+    "gkitOffCanvasHeightMobile": {
+      "type": "object"
+    },
+    "gkitOffCanvasBg": {
+      "type": "object"
+    },
+    "offCanvasPosition": {
+      "type": "string",
+      "default": "right"
+    },
+    "gkitOffCanvasPaddingDesktop": {
+      "type": "object"
+    },
+    "gkitOffCanvasPaddingTablet": {
+      "type": "object"
+    },
+    "gkitOffCanvasPaddingMobile": {
+      "type": "object"
+    },
+    "gkitCloseColor": {
+      "type": "string"
+    },
+    "gkitCloseBgColor": {
+      "type": "object"
+    },
+    "gkitCloseBorder": {
+      "type": "object"
+    },
+    "gkitCloseColorHover": {
+      "type": "string"
+    },
+    "gkitCloseBgColorHover": {
+      "type": "object"
+    },
+    "gkitCloseBorderHover": {
+      "type": "object"
+    },
+    "gkitCloseBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitCloseBorderRadiusTablet": {
+      "type": "object"
+    },
+    "gkitCloseBorderRadiusMobile": {
+      "type": "object"
+    },
+    "gkitClosePaddingDesktop": {
+      "type": "object"
+    },
+    "gkitClosePaddingTablet": {
+      "type": "object"
+    },
+    "gkitClosePaddingMobile": {
+      "type": "object"
+    },
+    "gkitCloseMarginDesktop": {
+      "type": "object"
+    },
+    "gkitCloseMarginTablet": {
+      "type": "object"
+    },
+    "gkitCloseMarginMobile": {
+      "type": "object"
+    },
+    "gkitCloseBoxShadow": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "gutenkit-blocks-addon",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./frontend.js"
+}

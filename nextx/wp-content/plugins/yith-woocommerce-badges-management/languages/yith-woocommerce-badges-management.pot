@@ -1,0 +1,658 @@
+# Copyright (C) 2024 YITH
+# This file is distributed under the same license as the YITH WooCommerce Badge Management package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Badge Management 3.8.0\n"
+"Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
+"POT-Creation-Date: 2024-06-25 14:23:26+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: YITH <info@yithemes.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/class-yith-wcbm-admin.php:230
+msgid "Choose image"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:239
+msgid "Choose badge type"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:306
+#. translators: %s is the name of the plugin that is updating data in
+#. background. Don't use the full stop at the end because there will be a smile
+#. emoji.
+msgid ""
+"<b>Update of %s:</b> we are updating badges and settings. The progress is "
+"automatic and can take few minutes. Please wait"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:342
+#: includes/class-yith-wcbm-post-types.php:48
+msgid "Badges"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:343
+msgid "Create, customize, and manage unlimited badges for your shop."
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:347
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:358
+msgid "Upload a custom image/icon to use as a badge"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:359
+msgid ""
+"Access a free library with <b>60 ready-to-use badges</b> for Black Friday, "
+"Christmas, End-of-season sales, Cyber Monday, etc. (and we will add more!)"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:360
+msgid ""
+"Unblock additional customization options: padding, margin, flip "
+"text,position, etc."
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:361
+msgid ""
+"Create dynamic badges for on-sale products and <b>automatically show the "
+"discount % and the saving</b>"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:362
+msgid ""
+"Create rules to automatically show badges in <b>on-sale / recent / low "
+"stock / in stock / back to order and featured products</b>"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:363
+msgid ""
+"Create rules to automatically show badges in products of <b>specific "
+"categories / tags / shipping classes</b>"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:364
+msgid "<b>Schedule badges</b> to set when automatically show and hide them"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:365
+msgid "Choose to show badges only to specific users, user roles or members"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:367
+#. translators: %s is the name of out plugin YITH WooCommerce Dynamic Pricing
+#. and Discounts.
+msgid "Assign badges to discounts and promotions created with our %s"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:368
+msgid "Regular updates, Translations and Premium Support"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:503
+msgid "Your Inspiration Themes"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:507
+msgid "Plugin Documentation"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:511
+msgid "Plugin Site"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:515
+msgid "Live Demo"
+msgstr ""
+
+#: includes/class-yith-wcbm-badge-post-type-admin.php:54
+msgid "You have no badges created yet.<br>Build now your first one!"
+msgstr ""
+
+#: includes/class-yith-wcbm-badges.php:89
+#: includes/class-yith-wcbm-badges.php:90
+#: includes/class-yith-wcbm-badges.php:92
+#: includes/class-yith-wcbm-badges.php:93
+msgid "Badge saved."
+msgstr ""
+
+#: includes/class-yith-wcbm-badges.php:91
+msgid "Badge created."
+msgstr ""
+
+#: includes/class-yith-wcbm-badges.php:111
+#. translators: %s is the deleted badges number.
+msgid "%s badge deleted."
+msgid_plural "%s badges deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-yith-wcbm-badges.php:163
+#. translators: %s: Badge ID.
+msgid "Error while duplicating badge: badge #%s not found"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:49
+msgid "Badge"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:50
+msgid "Add Badge"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:51
+msgid "Create New Badge"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:52
+#: includes/class-yith-wcbm-post-types.php:56
+msgid "Edit Badge"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:53
+#: includes/class-yith-wcbm-post-types.php:58
+msgid "View Badge"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:54
+msgid "Badge not found"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:55
+msgid "Badge not found in trash"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:57
+msgid "New Badge"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:59
+#: plugin-options/metaboxes/product-badge-metabox.php:26
+msgid "Search Badges"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:60
+msgid "Parent Badges"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:62
+msgid "All Badges"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:63
+msgid "View Badges"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:64
+msgid "Badge archives"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:65
+msgid "Badge attributes"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:66
+msgid "Filter badge list"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:67
+msgid "Filter by date"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:68
+msgid "Badge list"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:69
+#: includes/class-yith-wcbm-post-types.php:70
+msgid "Badge saved"
+msgstr ""
+
+#: includes/functions.yith-wcbm.php:655
+msgid "Show the product regular price"
+msgstr ""
+
+#: includes/functions.yith-wcbm.php:659
+msgid "Show the product sale price"
+msgstr ""
+
+#: includes/functions.yith-wcbm.php:663
+msgid "Show the available stock for the product"
+msgstr ""
+
+#: includes/functions.yith-wcbm.php:664
+msgid "Note: in product without stock management the badge will be not shown"
+msgstr ""
+
+#: includes/functions.yith-wcbm.php:668
+msgid "Show the customer's saving amount"
+msgstr ""
+
+#: includes/functions.yith-wcbm.php:672
+msgid "Show the customer's saving percentage"
+msgstr ""
+
+#: init.php:31
+msgid ""
+"YITH WooCommerce Badge Management is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+
+#: init.php:42
+msgid ""
+"You can't activate the free version of YITH WooCommerce Badge Management "
+"while you are using the premium one."
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:11
+msgid "Badge Options"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:17
+#: views/metaboxes/badge-settings.php:21
+msgid "Text Badge"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:25
+#: plugin-options/metaboxes/badge-metabox.php:30
+msgid "Badge name"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:33
+msgid "Enter a name to identify this badge"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:37
+msgid "Badge type"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:42
+#: plugin-options/metaboxes/badge-metabox.php:61
+#: views/metaboxes/badge-settings.php:36
+msgid "Text"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:43
+msgid "Image"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:46
+msgid "Choose the badge type"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:50
+msgid "Choose the badge image"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:62
+msgid "Use the editor to add the badge text."
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:70
+msgid "Background color"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:79
+msgid "Size (px)"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:84
+#: views/metaboxes/badge-settings.php:79
+msgid "Width"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:85
+#: views/metaboxes/badge-settings.php:80
+msgid "Height"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:102
+msgid "Padding"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:103
+msgid "Set the badge content spacing"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:107
+#: plugin-options/metaboxes/badge-metabox.php:143
+msgid "Top"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:108
+#: plugin-options/metaboxes/badge-metabox.php:158
+msgid "Right"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:109
+#: plugin-options/metaboxes/badge-metabox.php:145
+msgid "Bottom"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:110
+#: plugin-options/metaboxes/badge-metabox.php:156
+msgid "Left"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:120
+msgid "Border radius"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:121
+msgid "Set the badge border radius"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:125
+msgid "Top left"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:126
+msgid "Top right"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:127
+msgid "Bottom right"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:128
+msgid "Bottom left"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:138
+#: views/metaboxes/badge-settings.php:107
+#: views/metaboxes/badge-settings.php:111
+msgid "Position"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:144
+msgid "Middle"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:151
+msgid "Alignment"
+msgstr ""
+
+#: plugin-options/metaboxes/badge-metabox.php:157
+msgid "Center"
+msgstr ""
+
+#: plugin-options/metaboxes/product-badge-metabox.php:11
+msgid "Product Badge"
+msgstr ""
+
+#: plugin-options/metaboxes/product-badge-metabox.php:34
+msgid "Schedule badge"
+msgstr ""
+
+#: plugin-options/metaboxes/product-badge-metabox.php:43
+msgid "From... YYYY-MM-DD"
+msgstr ""
+
+#: plugin-options/metaboxes/product-badge-metabox.php:59
+msgid "To... YYYY-MM-DD"
+msgstr ""
+
+#: plugin-options/settings-options.php:13
+msgid "General Options"
+msgstr ""
+
+#: plugin-options/settings-options.php:19
+msgid "Hide WooCommerce \"On sale\" badge"
+msgstr ""
+
+#: plugin-options/settings-options.php:23
+msgid "Select to hide the default Woocommerce \"On sale\" badge."
+msgstr ""
+
+#: plugin-options/settings-options.php:28
+msgid "Hide \"On sale\" on:"
+msgstr ""
+
+#: plugin-options/settings-options.php:32
+msgid "All products"
+msgstr ""
+
+#: plugin-options/settings-options.php:33
+msgid "Products where a custom badge is applied only"
+msgstr ""
+
+#: plugin-options/settings-options.php:35
+msgid ""
+"Choose whether to always hide the default WooCommerce \"On sale\" badge or "
+"only in products where a custom badge is applied."
+msgstr ""
+
+#: plugin-options/settings-options.php:45
+msgid "Hide badges in sidebars"
+msgstr ""
+
+#: plugin-options/settings-options.php:48
+msgid "Select to hide the badges in sidebars and widgets."
+msgstr ""
+
+#: plugin-options/settings-options.php:56
+msgid "Extra"
+msgstr ""
+
+#: plugin-options/settings-options.php:62
+msgid "Enable Shop Manager to edit these options"
+msgstr ""
+
+#: plugin-options/settings-options.php:63
+msgid "Enable to allow your shop managers to manage the options of this plugin."
+msgstr ""
+
+#: views/add-badge-modal-content.php:11
+msgid "Text badge"
+msgstr ""
+
+#: views/add-badge-modal-content.php:12
+msgid "A plain text without background or inside a rectangle or circle shape"
+msgstr ""
+
+#: views/add-badge-modal-content.php:16
+msgid "Image badge"
+msgstr ""
+
+#: views/add-badge-modal-content.php:17
+msgid "Choose one of the badges of our library or upload a custom image"
+msgstr ""
+
+#: views/add-badge-modal-content.php:21
+msgid "CSS badge"
+msgstr ""
+
+#: views/add-badge-modal-content.php:22
+msgid "Beautiful badges fully customizable by CSS"
+msgstr ""
+
+#: views/add-badge-modal-content.php:27
+msgid "Advanced badge for on sales products"
+msgstr ""
+
+#: views/add-badge-modal-content.php:28
+msgid ""
+"A badge to show the discount percentage using the values in regular price "
+"and sale price for each product."
+msgstr ""
+
+#: views/fields/badge-library.php:29
+msgid "Upload image"
+msgstr ""
+
+#: views/metaboxes/badge-preview.php:14 views/metaboxes/badge-settings.php:127
+msgid "Preview"
+msgstr ""
+
+#: views/metaboxes/badge-preview.php:19
+msgid "Use the drag and drop to move the badge above the product image."
+msgstr ""
+
+#: views/metaboxes/badge-preview.php:30
+msgid "Save badge"
+msgstr ""
+
+#: views/metaboxes/badge-settings.php:22
+msgid "Image Badge"
+msgstr ""
+
+#: views/metaboxes/badge-settings.php:32
+msgid "Text Options"
+msgstr ""
+
+#: views/metaboxes/badge-settings.php:44
+msgid "Text Color"
+msgstr ""
+
+#: views/metaboxes/badge-settings.php:54
+msgid "Style Options"
+msgstr ""
+
+#: views/metaboxes/badge-settings.php:58
+msgid "Background Color"
+msgstr ""
+
+#: views/metaboxes/badge-settings.php:66
+msgid "Size (pixel)"
+msgstr ""
+
+#: views/metaboxes/badge-settings.php:91
+msgid "Select the Image Badge"
+msgstr ""
+
+#: views/metaboxes/badge-settings.php:115
+msgid "top-left"
+msgstr ""
+
+#: views/metaboxes/badge-settings.php:116
+msgid "top-right"
+msgstr ""
+
+#: views/metaboxes/badge-settings.php:117
+msgid "bottom-left"
+msgstr ""
+
+#: views/metaboxes/badge-settings.php:118
+msgid "bottom-right"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Highlight discounts, offers and products features using <strong>custom "
+"graphic badges.</strong> <a href=\"https://yithemes.com/\" "
+"target=\"_blank\">Get more plugins for your e-commerce shop on "
+"<strong>YITH</strong></a>"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:232
+msgctxt "[ADMIN] Confirm delete modal title on badges page"
+msgid "Confirm delete"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:234
+#. translators: %s is the badge rule name.
+msgctxt "[ADMIN] Confirm delete modal message on badges page"
+msgid "Are you sure you want to delete <b>\"%s\"</b>?"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:235
+msgctxt "[ADMIN] Confirm delete modal button on badges page"
+msgid "Delete"
+msgstr ""
+
+#: includes/class-yith-wcbm-admin.php:348
+msgctxt "[ADMIN] Tab description"
+msgid "Configure the plugin's general settings."
+msgstr ""
+
+#: includes/class-yith-wcbm-badge-post-type-admin.php:56
+msgctxt "Empty state CTA button text"
+msgid "Create Badge"
+msgstr ""
+
+#: includes/class-yith-wcbm-badge-post-type-admin.php:74
+msgctxt "[ADMIN] Badge Rules table column name"
+msgid "Name"
+msgstr ""
+
+#: includes/class-yith-wcbm-badge-post-type-admin.php:76
+msgctxt "[ADMIN] Badges table column name"
+msgid "Preview"
+msgstr ""
+
+#: includes/class-yith-wcbm-badge-post-type-admin.php:77
+msgctxt "[ADMIN] Badges table column name"
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-yith-wcbm-badge-post-type-admin.php:96
+msgctxt "Badge action"
+msgid "Enable"
+msgstr ""
+
+#: includes/class-yith-wcbm-badge-post-type-admin.php:97
+msgctxt "Badge action"
+msgid "Disable"
+msgstr ""
+
+#: includes/class-yith-wcbm-badge-post-type-admin.php:98
+msgctxt "Badge action"
+msgid "Delete"
+msgstr ""
+
+#: includes/class-yith-wcbm-badge-post-type-admin.php:154
+msgctxt "Action button title"
+msgid "Edit"
+msgstr ""
+
+#: includes/class-yith-wcbm-badge-post-type-admin.php:160
+msgctxt "Action button title"
+msgid "Clone"
+msgstr ""
+
+#: includes/class-yith-wcbm-badge-post-type-admin.php:176
+msgctxt "Action button title"
+msgid "Delete"
+msgstr ""
+
+#: includes/class-yith-wcbm-post-types.php:61
+msgctxt "Admin menu name"
+msgid "Badges"
+msgstr ""
+
+#: includes/data-stores/class-yith-wcbm-badge-data-store-cpt.php:52
+msgctxt "[Generic] Error that happens when trying to read a Badge that does not exist"
+msgid "Invalid Badge."
+msgstr ""
+
+#: includes/functions.yith-wcbm.php:467 includes/functions.yith-wcbm.php:478
+msgctxt "Text used inside the badges"
+msgid "Up to"
+msgstr ""
+
+#: includes/functions.yith-wcbm.php:470 includes/functions.yith-wcbm.php:481
+msgctxt "Text used inside the badges"
+msgid "Discount"
+msgstr ""
+
+#: views/add-badge-modal-content.php:58 views/fields/badge-library.php:33
+msgctxt "[ADMIN] label shown in premium contents"
+msgid "Premium"
+msgstr ""

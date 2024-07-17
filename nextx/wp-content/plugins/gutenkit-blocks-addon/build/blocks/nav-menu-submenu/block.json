@@ -1,0 +1,140 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit/nav-menu-submenu",
+  "version": "1.0.0",
+  "title": "Nav Menu Submenu",
+  "category": "gutenkit",
+  "description": "Nav menu submenu block for gutenberg.",
+  "parent": [
+    "gutenkit/nav-menu-item"
+  ],
+  "example": {
+    "preview": true
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "gkitSubMenuContainerWidthDesktop": {
+      "type": "object",
+      "default": {
+        "size": 200,
+        "unit": "px"
+      }
+    },
+    "gkitSubMenuContainerWidthTablet": {
+      "type": "object",
+      "default": {
+        "size": 200,
+        "unit": "px"
+      }
+    },
+    "gkitSubMenuContainerWidthMobile": {
+      "type": "object",
+      "default": {
+        "size": 200,
+        "unit": "px"
+      }
+    },
+    "gkitSubMenuAlignmentDesktop": {
+      "type": "string"
+    },
+    "gkitSubMenuAlignmentTablet": {
+      "type": "string"
+    },
+    "gkitSubMenuAlignmentMobile": {
+      "type": "string"
+    },
+    "gkitSubMenuItemSpaceBetweenDesktop": {
+      "type": "object"
+    },
+    "gkitSubMenuItemSpaceBetweenTablet": {
+      "type": "object"
+    },
+    "gkitSubMenuItemSpaceBetweenMobile": {
+      "type": "object"
+    },
+    "gkitSubMenuItemTypography": {
+      "type": "object"
+    },
+    "gkitSubMenuItemBackgroundNormal": {
+      "type": "object"
+    },
+    "gkitSubMenuItemTextColorNormal": {
+      "type": "string"
+    },
+    "gkitSubMenuItemBorderNormal": {
+      "type": "object"
+    },
+    "gkitSubMenuItemBackgroundHover": {
+      "type": "object"
+    },
+    "gkitSubMenuItemTextColorHover": {
+      "type": "string"
+    },
+    "gkitSubMenuItemBorderColorHover": {
+      "type": "string"
+    },
+    "gkitSubMenuItemBackgroundActive": {
+      "type": "object"
+    },
+    "gkitSubMenuItemTextColorActive": {
+      "type": "string"
+    },
+    "gkitSubMenuItemBorderColorActive": {
+      "type": "string"
+    },
+    "gkitSubMenuItemPaddingDesktop": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "right": "10px",
+        "bottom": "0px",
+        "left": "10px"
+      }
+    },
+    "gkitSubMenuItemPaddingTablet": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "right": "10px",
+        "bottom": "0px",
+        "left": "10px"
+      }
+    },
+    "gkitSubMenuItemPaddingMobile": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "right": "10px",
+        "bottom": "0px",
+        "left": "10px"
+      }
+    },
+    "gkitSubMenuItemBorder": {
+      "type": "object"
+    },
+    "gkitSubMenuItemBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "gkitSubMenuItemBorderRadiusTablet": {
+      "type": "object"
+    },
+    "gkitSubMenuItemBorderRadiusMobile": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "gutenkit-blocks-addon",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

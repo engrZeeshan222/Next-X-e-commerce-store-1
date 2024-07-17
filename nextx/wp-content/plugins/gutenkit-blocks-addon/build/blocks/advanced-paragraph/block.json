@@ -1,0 +1,193 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenkit/advanced-paragraph",
+  "version": "1.0.0",
+  "title": "Advanced Paragraph",
+  "category": "gutenkit",
+  "icon": "menu-alt3",
+  "keywords": [
+    "gkit",
+    "gutenkit",
+    "text",
+    "para",
+    "paragraph",
+    "advanced paragraph",
+    "advanced"
+  ],
+  "description": "Advanced Paragraph block for gutenberg.",
+  "example": {
+    "preview": true
+  },
+  "attributes": {
+    "blockID": {
+      "type": "string"
+    },
+    "blockClass": {
+      "type": "string"
+    },
+    "blocksCSS": {
+      "type": "object"
+    },
+    "paragraphColumnDesktop": {
+      "type": "object"
+    },
+    "paragraphColumnTablet": {
+      "type": "number"
+    },
+    "paragraphColumnMobile": {
+      "type": "number"
+    },
+    "dropCapSwitcher": {
+      "type": "boolean",
+      "default": false
+    },
+    "paragraphColumnSpacingDesktop": {
+      "type": "string"
+    },
+    "paragraphColumnSpacingTablet": {
+      "type": "object"
+    },
+    "paragraphColumnSpacingMobile": {
+      "type": "object"
+    },
+    "paragraphTextAlignmentDesktop": {
+      "type": "string",
+      "default": "left"
+    },
+    "paragraphTextAlignmentTablet": {
+      "type": "string",
+      "default": "left"
+    },
+    "paragraphTextAlignmentMobile": {
+      "type": "string",
+      "default": "left"
+    },
+    "textTypography": {
+      "type": "object"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "textColorHover": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "textShadow": {
+      "type": "object"
+    },
+    "textShadowHover": {
+      "type": "object",
+      "default": "0 0 0 #fff"
+    },
+    "paragraphLinkTypography": {
+      "type": "object"
+    },
+    "paragraphLinkColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "paragraphLinkBgColor": {
+      "type": "object"
+    },
+    "paragraphLinkColorHover": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "paragraphLinkBgColorHover": {
+      "type": "object"
+    },
+    "textLinkBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "textLinkBorderRadiusTablet": {
+      "type": "object"
+    },
+    "textLinkBorderRadiusMobile": {
+      "type": "object"
+    },
+    "textLinkPaddingDesktop": {
+      "type": "object"
+    },
+    "textLinkPaddingTablet": {
+      "type": "object"
+    },
+    "textLinkPaddingMobile": {
+      "type": "object"
+    },
+    "dropCapTypography": {
+      "type": "object"
+    },
+    "dropCapColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "dropCaptextShadow": {
+      "type": "object"
+    },
+    "dropCapBgColor": {
+      "type": "object"
+    },
+    "dropCapBorderDesktop": {
+      "type": "object"
+    },
+    "dropCapBorderTablet": {
+      "type": "object"
+    },
+    "dropCapBorderMobile": {
+      "type": "object"
+    },
+    "dropCapBorderRadiusDesktop": {
+      "type": "object"
+    },
+    "dropCapBorderRadiusTablet": {
+      "type": "object"
+    },
+    "dropCapBorderRadiusMobile": {
+      "type": "object"
+    },
+    "dropCapPaddingDesktop": {
+      "type": "object"
+    },
+    "dropCapPaddingTablet": {
+      "type": "object"
+    },
+    "dropCapPaddingMobile": {
+      "type": "object"
+    },
+    "dropCapMarginDesktop": {
+      "type": "object"
+    },
+    "dropCapMarginTablet": {
+      "type": "object"
+    },
+    "dropCapMarginMobile": {
+      "type": "object"
+    },
+    "description": {
+      "type": "string",
+      "default": "Hello Gutenkit!"
+    },
+    "dropCap": {
+      "type": "boolean",
+      "default": false
+    },
+    "content": {
+      "type": "string",
+      "default": "GutenKit Block Addon is a powerful WordPress block plugin that enhances the block editor experience. Packed with dynamic and customizable blocks, it offers endless possibilities for building visually stunning pages and posts. From advanced grid layouts to dynamic pricing tables, the GutenKit Block Addon is designed to elevate your website design effortlessly, making it a must-have tool for WordPress developers and designers alike."
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "__experimentalSlashInserter": true
+  },
+  "textdomain": "gutenkit-blocks-addon",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,21 @@
+2024-07-15T15:00:18+00:00 NOTICE profile :: user_update_subscribe_status :: Array
+(
+    [subscribed] => 1
+    [user_id] => 1
+    [gdpr_fields] => 
+)
+
+2024-07-15T15:00:22+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2024-07-15T15:00:52+00:00 NOTICE member.sync :: next@gmail.com is Pending Double OptIn :: Array
+(
+    [status_if_new] => pending
+    [has_doi] => 1
+    [status_meta] => Array
+        (
+            [requires_double_optin] => 1
+            [created] => 
+            [updated] => pending
+        )
+
+)
+
