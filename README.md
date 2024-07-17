@@ -74,3 +74,6 @@
 
 ### Custom Checkout Page Design
 - **Short Description:** Customize the design of the checkout page.
+
+
+![WhatsApp Image 2024-07-17 at 9 19 56 PM](https://github.com/user-attachments/assets/65dc9af7-fbb1-4c68-870b-4a664c05b3c0)
